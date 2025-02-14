@@ -18,6 +18,7 @@ function Home() {
     <>
       <div>
       </div>
+      <p style={{display:'none'}}>I promise that I'll make you a proper gift for Brazilian Couple's Day T.T</p>
       <h1>To My Beautiful Fianceé</h1>
       <div className="card">
         <button onClick={() => navigate('/card')}>
