@@ -53,3 +53,27 @@
   width: 55%;
   height: auto;
 }
+
+.sunset {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.mobilewarn {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .sunset {
+    display: none;
+  }
+  .mobilewarn {
+    display: block;
+  }
+}
+
+.love2 {
+  position: relative;
+}

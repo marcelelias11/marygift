@@ -7,6 +7,7 @@ function Content() {
   const [Bg, setBg] = useState(0)
   if (Bg === 1){
     document.body.style.backgroundColor = "red";
+    document.body.style.color = "white";
     document.getElementById("root").style.backgroundColor = "red";
   }
   if (Bg === 0){

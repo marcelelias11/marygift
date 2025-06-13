@@ -22,8 +22,9 @@ function Home() {
       <h1>To My Beautiful Fianceé</h1>
       <div className="card">
         <button onClick={() => navigate('/card')}>
-          Continue
+          Chapter 1
         </button>
+        <button className="part2" onClick={()=> navigate("/card2")}>Chapter 2</button>
       </div>
     </>
   )
