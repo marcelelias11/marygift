@@ -25,6 +25,7 @@ function Home() {
           Chapter 1
         </button>
         <button className="part2" onClick={()=> navigate("/card2")}>Chapter 2</button>
+        <button className="part2" onClick={()=> navigate("/card3")}>Chapter 2</button>
       </div>
     </>
   )
