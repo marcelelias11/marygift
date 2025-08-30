@@ -23,7 +23,7 @@ function Card3() {
       <h1>Happy Birthday!</h1>
       <div className="card">
         <img className="heart" src={heart} onClick={()=> navigate("/part3")}></img>
-        <p className='love' onClick={()=> navigate("/part2")}>I love you, honey</p>
+        <p className='love' onClick={()=> navigate("/part3")}>I love you, honey</p>
       </div>
     </>
   )
